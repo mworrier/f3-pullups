@@ -1,13 +1,5 @@
 <template>
 	<div class="maba-form">
-		<header class="maba-form__header subsection centered">
-			<a href="/signup" class="banner-link">
-				<img src="../assets/maba-2022-banner.png"
-					 alt="F3 St. Charles | Fitness, Fellowship, and Faith | Established 2021"
-					 class="maba-form__banner"
-				/>
-			</a>
-		</header>
 		<div class="maba-form__content">
 			<slot></slot>
 		</div>
