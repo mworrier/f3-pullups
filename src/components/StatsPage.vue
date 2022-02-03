@@ -7,7 +7,7 @@
 
 		<section class="subsection global-stats-container tablet">
 			<div class="global-stats">
-				<h2 class="global-stat-header centered">{{ formattedGlobalAreaName }} Cumulative Burpees &mdash;<br/>Month
+				<h2 class="global-stat-header centered">{{ formattedGlobalAreaName }} Cumulative Pullups &mdash;<br/>Month
 					to Date</h2>
 				<h2 class="global-stat-header centered">{{ formattedShortDate }} Count</h2>
 			</div>
@@ -23,7 +23,7 @@
 
 		<section class="subsection global-stats-container mobile">
 			<div class="global-stats">
-				<h2 class="global-stat-header centered">{{ formattedGlobalAreaName }} Cumulative Burpees &mdash;<br/>Month
+				<h2 class="global-stat-header centered">{{ formattedGlobalAreaName }} Cumulative Pullups &mdash;<br/>Month
 					to Date</h2>
 				<label class="global-stat centered">{{ formattedGlobalCountrywideCount }}</label>
 			</div>

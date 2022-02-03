@@ -1,26 +1,15 @@
 <template>
 	<MABAForm>
 		<section class="subsection description">
-			<h1>Welcome to Year 2 of MABA — Make America Burpee Again.</h1>
+			<h1>Welcome to JeffCo's Pullups February Challenge!</h1>
 
 			<p><strong>The challenge:</strong> Do 1,400 pullups in February. You can do 50 every day, or you can
 				bank a bunch and
-				take days off. Other than that, there are no rules. Clap at the top, don’t clap the top, either is fine.
-				100 of anything is a lot for one day, so push yourself but don’t hurt yourself.</p>
-
-			<p>The theme is Fall Down. Get back up. Together. We all fall down. We all get back up. We must
-				not do either one alone.</p>
+				take days off. Use weight, don't use weight.  Whatever you do, just be sure to Grease the Groove, baby!.</p>
 
 			<p v-if="userCanRegister">Sign up below.</p>
-			<p v-else><strong>Registration is closed for 2022. Come back and join us again in 2023!</strong></p>
+			<p v-else><strong>Registration is closed. Come back and join us for the next challenge!</strong></p>
 
-			<div class="promo-video centered">
-				<iframe width="560"
-						height="315" src="https://www.youtube.com/embed/5q8mbKXzRZw" title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-			</div>
 		</section>
 
 		<section class="subsection">
@@ -81,7 +70,7 @@
 								   :checked="canSelectHim"
 								   @input="onHimStatusChange( `EXISTING` )"
 							/>
-							Input new burpees
+							Input new pullups
 						</label>
 					</p>
 					<select name="hims"
@@ -121,7 +110,7 @@
 
 		<section class="subsection" v-if="mergedBurpees.length">
 			<h2 class="burpees-heading">
-				<span v-if="himName">{{ burpeeYear }} Burpees for {{ himName }}</span>
+				<span v-if="himName">Pullups for {{ himName }}</span>
 				<span v-else>{{ burpeeYear }} Burpees</span>
 				<span>Total: {{ totalBurpees }}</span>
 			</h2>
