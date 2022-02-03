@@ -1,7 +1,7 @@
 <template>
 	<MABAForm>
 		<section class="subsection description">
-			<h1>Welcome to JeffCo's Pullups February Challenge!</h1>
+			<h1>Welcome to F3 JeffCo's Pullups February Challenge!</h1>
 
 			<p><strong>The challenge:</strong> @Obiwan challenges you to 1,000 pullups in February. There are 20 weekdays in the month.  You can do 50 every weekday, or you can
 				bank a bunch and
