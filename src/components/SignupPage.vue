@@ -3,7 +3,7 @@
 		<section class="subsection description">
 			<h1>Welcome to JeffCo's Pullups February Challenge!</h1>
 
-			<p><strong>The challenge:</strong> Do 1,400 pullups in February. You can do 50 every day, or you can
+			<p><strong>The challenge:</strong> @Obiwan challenges you to 1,000 pullups in February. There are 20 weekdays in the month.  You can do 50 every weekday, or you can
 				bank a bunch and
 				take days off. Use weight, don't use weight.  Whatever you do, just be sure to Grease the Groove, baby!.</p>
 
