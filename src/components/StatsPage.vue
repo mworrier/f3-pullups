@@ -114,7 +114,7 @@
 
 		<section class="subsection">
 			<p class="centered">
-				Not recording your burpees yet? <a href="/signup">Sign up here.</a>
+				Not recording your pullups yet? <a href="/signup">Sign up here.</a>
 			</p>
 		</section>
 	</MABAForm>
