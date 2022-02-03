@@ -1,4 +1,4 @@
-# f3-maba
+# f3-pullups
 
 ## Prerequisites
 
