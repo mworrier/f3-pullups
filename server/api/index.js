@@ -95,7 +95,7 @@ const zeroFillBurpees = ( formattedRows, year ) => {
 	const daysInFebruary = 28;
 	const padZero = n => n < 10 ? `0${ n }` : `${ n }`;
 	for ( const day of range( 1, daysInFebruary + 1 ) ) {
-		const date = `${ year }-01-${ padZero( day ) }`;
+		const date = `${ year }-02-${ padZero( day ) }`;
 		const row = rowsByDate[ date ] || {
 			date,
 			count: 0,

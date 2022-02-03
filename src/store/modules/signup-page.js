@@ -19,7 +19,7 @@ const pristineBurpees = ( { year = "", } = {} ) => {
 	const allBurpees = [];
 	const daysInFebruary = 28;
 	for ( const day of range( 1, daysInFebruary + 1 ) ) {
-		const date = `${ year }-01-${ padZero( day ) }`;
+		const date = `${ year }-02-${ padZero( day ) }`;
 		const burpee = {
 			date,
 			count: 0,
