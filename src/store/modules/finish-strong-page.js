@@ -6,7 +6,7 @@ import {
 	notifyUnknownError,
 } from "./notify";
 
-const BURPEE_MONTH = "01";
+const BURPEE_MONTH = "02";
 
 const pristineState = () => {
 	return {

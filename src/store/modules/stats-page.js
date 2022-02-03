@@ -8,7 +8,7 @@ import {
 } from "./notify";
 import { padZero } from "../../lib/util";
 
-const BURPEE_MONTH = "01";
+const BURPEE_MONTH = "02";
 
 const pristineState = () => {
 	return {
