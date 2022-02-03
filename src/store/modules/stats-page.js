@@ -36,7 +36,7 @@ export default {
 			const pathParts = pathname.split( "/" );
 			const year = pathParts[ 2 ];
 			const day = pathParts[ 3 ];
-			const date = `${ year }-01-${ padZero( day ) }`;
+			const date = `${ year }-02-${ padZero( day ) }`;
 			return moment( date ).format( "MMMM Do" );
 		},
 		globalCountrywideCount: state => state.globalCountrywideCount,
