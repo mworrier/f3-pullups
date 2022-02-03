@@ -92,9 +92,9 @@ const postHim = async ( req, res ) => {
 const zeroFillBurpees = ( formattedRows, year ) => {
 	const rowsByDate = keyBy( formattedRows, "date" );
 	const allBurpees = [];
-	const daysInJanuary = 31;
+	const daysInFebruary = 28;
 	const padZero = n => n < 10 ? `0${ n }` : `${ n }`;
-	for ( const day of range( 1, daysInJanuary + 1 ) ) {
+	for ( const day of range( 1, daysInFebruary + 1 ) ) {
 		const date = `${ year }-01-${ padZero( day ) }`;
 		const row = rowsByDate[ date ] || {
 			date,

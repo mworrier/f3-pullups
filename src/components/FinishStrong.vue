@@ -6,7 +6,7 @@
 				<img src="../assets/maba-2022-banner-small.png"/>
 				<p>Make America Burpee Again</p>
 				<h1 class="burpee-count">{{ formattedGlobalCountrywideCount }}</h1>
-				<p>total burpees in January, 2022</p>
+				<p>total burpees in February, 2022</p>
 				<div>&#9679;</div>
 				<p>
 					<a href="/stats">Daily Stats</a>
