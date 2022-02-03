@@ -5,7 +5,7 @@
 
 			<p><strong>The challenge:</strong> @Obiwan challenges you to 1,000 pullups in February. There are 20 weekdays in the month.  You can do 50 every weekday, or you can
 				bank a bunch and
-				take days off. Use weight, don't use weight.  Whatever you do, just be sure to Grease the Groove, baby!.</p>
+				take days off. Use weight, don't use weight.  Whatever you do, just be sure to Grease the Groove, baby!</p>
 
 			<p v-if="userCanRegister">Sign up below.</p>
 			<p v-else><strong>Registration is closed. Come back and join us for the next challenge!</strong></p>
