@@ -31,7 +31,7 @@ export default function ( { store } ) {
 				}
 				const { params } = to;
 				const { year } = params;
-				document.title = `MABA - Signup - ${ year }`;
+				document.title = `Pullups - Signup - ${ year }`;
 				store.dispatch( "signupPage/initializeStore", { year, } );
 				next();
 			}
@@ -62,7 +62,7 @@ export default function ( { store } ) {
 			beforeEnter( to, from, next ) {
 				const { params } = to;
 				const { year, day, } = params;
-				document.title = `MABA - Stats - ${ year }`;
+				document.title = `Pullups - Stats - ${ year }`;
 				store.dispatch( "statsPage/initializeStore", { year, day, } );
 				next();
 			}
@@ -85,7 +85,7 @@ export default function ( { store } ) {
 				const { params } = to;
 				const { year, } = params;
 				const day = 31;
-				document.title = `MABA - Finish Strong - ${ year }`;
+				document.title = `Pullups - Finish Strong - ${ year }`;
 				store.dispatch( "finishStrongPage/initializeStore", { year, day, } );
 				next();
 			}
