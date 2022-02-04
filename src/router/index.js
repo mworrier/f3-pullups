@@ -45,7 +45,7 @@ export default function ( { store } ) {
 				// got to stats for the FIRST of the month
 				let url = `/stats/${ TARGET_YEAR }/01`;
 				if ( IS_YEAR_CLOSED ) {
-					url = `/stats/${ TARGET_YEAR }/31`;
+					url = `/stats/${ TARGET_YEAR }/28`;
 				}
 				const { year, month, day } = today();
 				if ( year === TARGET_YEAR && month === TARGET_MONTH ) {
@@ -84,7 +84,7 @@ export default function ( { store } ) {
 				}
 				const { params } = to;
 				const { year, } = params;
-				const day = 31;
+				const day = 28;
 				document.title = `Pullups - Finish Strong - ${ year }`;
 				store.dispatch( "finishStrongPage/initializeStore", { year, day, } );
 				next();
